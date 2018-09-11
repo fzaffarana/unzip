@@ -1,0 +1,18 @@
+{
+  "name": "unzip",
+  "version": "1.0.0",
+  "description": "Extracts a zip file into a temporary directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Fabrizio Zaffarana <fzaffarana@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.11",
+    "tmp": "0.0.33"
+  },
+  "devDependencies": {
+    "jasmine-console-reporter": "^3.1.0"
+  }
+}
